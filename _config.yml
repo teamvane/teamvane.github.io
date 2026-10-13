@@ -1,0 +1,5 @@
+# GitHub Pages (Jekyll) settings for teamvane.com.
+# Pages are written in Markdown; each file's front matter sets its title and URL.
+title: Teamvane
+description: Simple, private apps for teams working in Atlassian products.
+theme: jekyll-theme-primer
