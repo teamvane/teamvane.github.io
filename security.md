@@ -3,14 +3,9 @@ title: Security – Teamvane
 permalink: /security/
 ---
 
-<!--
-DRAFT for review. Fill [DATE] with the publication date before publishing.
-Needs the security@teamvane.com alias to exist.
--->
-
 # Security
 
-**Last updated:** [DATE]
+**Last updated:** 13 October 2026
 
 This page explains how Teamvane, the trading name of Alexandre Blasco Brasó, based in France, builds and looks after its apps for Atlassian products, and how to report a security problem.
 

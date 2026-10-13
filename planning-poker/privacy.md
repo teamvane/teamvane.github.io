@@ -3,14 +3,9 @@ title: Privacy Policy – Teamvane Planning Poker for Jira
 permalink: /planning-poker/privacy/
 ---
 
-<!--
-DRAFT for review. Fill [DATE] with the publication date before publishing.
-Not legal advice: have it reviewed before publishing.
--->
-
 # Privacy Policy – Teamvane Planning Poker for Jira
 
-**Last updated:** [DATE]
+**Last updated:** 13 October 2026
 
 This policy explains what personal data the **Teamvane Planning Poker for Jira** app ("the app") handles, why, where it is kept and for how long. It applies to the app as installed from the Atlassian Marketplace.
 

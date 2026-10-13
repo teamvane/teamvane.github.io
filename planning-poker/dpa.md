@@ -3,14 +3,9 @@ title: Data Processing Addendum – Teamvane Planning Poker for Jira
 permalink: /planning-poker/dpa/
 ---
 
-<!--
-DRAFT for review. Fill [DATE] with the publication date before publishing.
-Not legal advice: have it reviewed before publishing.
--->
-
 # Data Processing Addendum – Teamvane Planning Poker for Jira
 
-**Last updated:** [DATE]
+**Last updated:** 13 October 2026
 
 This Data Processing Addendum ("DPA") is part of the [Terms of Use](/planning-poker/terms/) of **Teamvane Planning Poker for Jira** ("the Product"). It applies when the Product processes personal data on behalf of the customer that installed it ("Customer"), as required by article 28 of the EU General Data Protection Regulation ("GDPR").
 

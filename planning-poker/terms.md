@@ -3,14 +3,9 @@ title: Terms of Use – Teamvane Planning Poker for Jira
 permalink: /planning-poker/terms/
 ---
 
-<!--
-DRAFT for review. Fill [DATE] with the publication date before publishing.
-Not legal advice: have it reviewed before publishing.
--->
-
 # Terms of Use – Teamvane Planning Poker for Jira
 
-**Last updated:** [DATE]
+**Last updated:** 13 October 2026
 
 **Teamvane Planning Poker for Jira** ("the Product") is provided by Teamvane, the trading name of Alexandre Blasco Brasó, based in France ("Provider", "we"). Use of the Product is governed by:
 
