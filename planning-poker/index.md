@@ -132,3 +132,7 @@ Sites with up to 10 users can use the app for free. Larger sites get a free tria
 ## Support
 
 Email **support@teamvane.com**, in English, French or Spanish. We reply within one business day.
+
+---
+
+<small>Planning Poker® is a registered trademark of Mountain Goat Software, LLC. Teamvane is not affiliated with Mountain Goat Software.</small>
