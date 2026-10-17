@@ -226,3 +226,28 @@ h1, h2, h3 { line-height: 1.2; letter-spacing: -0.01em; }
   .brand span { display: none; }
   .app-card { flex-direction: column; padding: 20px; }
 }
+
+/* Contact page */
+
+.contact-cards { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; margin-top: 32px; }
+.contact-card { padding: 24px; border: 1px solid var(--border); border-radius: var(--radius); }
+.prose .contact-card h2 { font-size: 20px; margin: 0 0 8px; padding: 0; }
+.contact-card p { margin: 0 0 12px; color: var(--muted); }
+.prose .contact-address { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; font-size: 18px; font-weight: 650; color: var(--text); }
+.contact-note { font-size: 15px; }
+.copy {
+  font: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  cursor: pointer;
+}
+.copy:hover { border-color: var(--blue); color: var(--blue); }
+
+@media (max-width: 720px) {
+  .contact-cards { grid-template-columns: 1fr; }
+}

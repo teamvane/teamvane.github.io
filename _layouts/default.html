@@ -21,7 +21,7 @@
       <nav class="site-nav" aria-label="Main">
         <a href="/planning-poker/"{% if page.url == '/planning-poker/' %} aria-current="page"{% endif %}>Planning Poker</a>
         <a href="/security/"{% if page.url == '/security/' %} aria-current="page"{% endif %}>Security</a>
-        <a href="mailto:support@teamvane.com">Contact</a>
+        <a href="/contact/"{% if page.url == '/contact/' %} aria-current="page"{% endif %}>Contact</a>
       </nav>
     </div>
   </header>
@@ -51,6 +51,7 @@
           <li><a href="mailto:support@teamvane.com">support@teamvane.com</a></li>
           <li><a href="mailto:security@teamvane.com">security@teamvane.com</a></li>
           <li><a href="/security/">Security policy</a></li>
+          <li><a href="/contact/">All contact details</a></li>
         </ul>
       </div>
       <p class="footer-meta">© {{ site.time | date: '%Y' }} Teamvane. This website uses no cookies, analytics or trackers, and is hosted on GitHub Pages.</p>
