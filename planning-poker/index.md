@@ -1,13 +1,50 @@
 ---
-title: Teamvane Planning Poker for Jira – Documentation
+layout: app
+title: Teamvane Planning Poker for Jira
+description: Private, real-time planning poker inside Jira. Votes stay hidden until the reveal, refinement sessions run through a queue of issues, and the agreed estimate saves to the issue in one click.
 permalink: /planning-poker/
+eyebrow: For Jira Cloud · by Teamvane
+app_name: Teamvane Planning Poker for Jira
+tagline: Estimate together without anchoring. Votes stay hidden until the reveal, refinement sessions run through a queue of issues, and the agreed estimate saves to the issue in one click.
+logo: /assets/img/app-logo.svg
+marketplace_label: Coming soon to the Atlassian Marketplace
+facts:
+  - Free for up to 10 users
+  - Runs on Atlassian
+  - Your data stays in your site
+highlights:
+  - title: Votes stay private until the reveal
+    text: Nobody sees a card before the reveal. It's enforced on the server, not just hidden on screen. You see who's here, who has voted and who the team is waiting for, and when everyone has voted, the cards turn after a short countdown that anyone can hold.
+    image: /assets/img/highlight-1.png
+    alt: The Planning Poker panel on a Jira issue during a round, showing who's here, who has voted and who the team is waiting for.
+  - title: Refine a backlog together
+    text: Build an estimation queue from your backlog, sprints or a search, then estimate the issues one after another on the space's Planning Poker page, with everyone following along live.
+    image: /assets/img/highlight-2.png
+    alt: The space's Planning Poker page with an estimation queue of five issues and a session in progress.
+  - title: Save the agreed estimate in one click
+    text: After the reveal, save the agreed number to story points or any number field your space uses. Jira's issue view updates straight away, for everyone on the issue.
+    image: /assets/img/highlight-3.png
+    alt: Revealed results with the most voted card, saved to the issue's Story point estimate field.
+toc:
+  - id: get-started
+    title: Get started
+  - id: estimate-an-issue
+    title: Estimate an issue
+  - id: refinement-sessions
+    title: Refinement sessions
+  - id: where-estimates-are-saved
+    title: Where estimates are saved
+  - id: leading-a-session
+    title: Leading a session
+  - id: privacy-and-data
+    title: Privacy and data
+  - id: subscription
+    title: Subscription
+  - id: troubleshooting
+    title: Troubleshooting
+  - id: support
+    title: Support
 ---
-
-# Teamvane Planning Poker for Jira
-
-Private, real-time planning poker inside Jira. Estimate on the issue itself, or run a refinement session through a list of issues. Nobody sees a card until the reveal, and the agreed estimate saves to the issue in one click.
-
-**On this page:** [Get started](#get-started) · [Estimate an issue](#estimate-an-issue) · [Refinement sessions](#refinement-sessions) · [Where estimates are saved](#where-estimates-are-saved) · [Leading a session](#leading-a-session) · [Privacy and data](#privacy-and-data) · [Subscription](#subscription) · [Troubleshooting](#troubleshooting) · [Support](#support)
 
 ## Get started
 

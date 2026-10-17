@@ -7,7 +7,7 @@ permalink: /security/
 
 **Last updated:** 13 October 2026
 
-This page explains how Teamvane, the trading name of Alexandre Blasco Brasó, based in France, builds and looks after its apps for Atlassian products, and how to report a security problem.
+This page explains how Teamvane builds and looks after its apps for Atlassian products, and how to report a security problem.
 
 ## Reporting a vulnerability
 

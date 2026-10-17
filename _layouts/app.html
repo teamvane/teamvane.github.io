@@ -1,0 +1,46 @@
+---
+layout: default
+---
+<section class="app-hero">
+  <div class="container app-hero-inner">
+    <img class="app-hero-logo" src="{{ page.logo }}" alt="" width="96" height="96">
+    <div>
+      <p class="eyebrow">{{ page.eyebrow }}</p>
+      <h1>{{ page.app_name }}</h1>
+      <p class="lead">{{ page.tagline }}</p>
+      <div class="actions">
+        <a class="button button-primary" href="#{{ page.toc[0].id }}">Read the docs</a>
+        <span class="button button-ghost" aria-disabled="true">{{ page.marketplace_label }}</span>
+      </div>
+      <ul class="facts">
+        {% for fact in page.facts %}<li>{{ fact }}</li>{% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="container highlights" aria-label="Highlights">
+  {% for highlight in page.highlights %}
+  <div class="highlight{% cycle '', ' highlight-reverse' %}">
+    <div class="highlight-text">
+      <h2>{{ highlight.title }}</h2>
+      <p>{{ highlight.text }}</p>
+    </div>
+    <figure class="highlight-shot">
+      <a href="{{ highlight.image }}"><img src="{{ highlight.image }}" alt="{{ highlight.alt }}" width="1840" height="900" loading="lazy"></a>
+    </figure>
+  </div>
+  {% endfor %}
+</section>
+
+<div class="container docs">
+  <nav class="toc" aria-label="On this page">
+    <p class="toc-title">On this page</p>
+    <ul>
+      {% for item in page.toc %}<li><a href="#{{ item.id }}">{{ item.title }}</a></li>{% endfor %}
+    </ul>
+  </nav>
+  <article class="prose">
+{{ content }}
+  </article>
+</div>
