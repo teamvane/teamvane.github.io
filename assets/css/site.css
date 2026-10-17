@@ -154,6 +154,7 @@ h1, h2, h3 { line-height: 1.2; letter-spacing: -0.01em; }
 
 .highlights { padding-top: 72px; display: flex; flex-direction: column; gap: 72px; }
 .highlight { display: grid; grid-template-columns: 1fr 1.7fr; gap: 48px; align-items: center; }
+.highlight-reverse { grid-template-columns: 1.7fr 1fr; }
 .highlight-reverse .highlight-text { order: 2; }
 .highlight-text h2 { font-size: 28px; margin: 0 0 12px; }
 .highlight-text p { color: var(--muted); margin: 0; font-size: 18px; }
