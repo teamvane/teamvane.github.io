@@ -79,8 +79,8 @@ Use the space's **Planning Poker** page to estimate several issues in a row, wit
 
 1. Open the space and click **Planning Poker** in the sidebar.
 2. Click **Add issues** to build the **estimation queue**:
-   - quick filters: **Unestimated**, **Recently viewed**, **Recently created**, **Backlog**, **Current sprint**, **Next sprint**;
-   - search by text, or paste several issue keys at once.
+   - **Show** picks the part of your plan to list: **Backlog**, **Current sprint**, **Next sprint** or **All open issues**. **Only unestimated** (on by default) leaves out issues that already have story points;
+   - or type words or an issue key to search every open issue in the space, or paste several keys at once.
 3. Pick an issue from the queue. Everyone on the page moves to it together, and the session works exactly like on the issue panel.
 4. The queue shows the estimates already saved, so you can see what's left. Remove issues with ×, or use **Clear queue**.
 
