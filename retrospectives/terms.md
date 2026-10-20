@@ -1,0 +1,72 @@
+---
+title: Terms of Use – Teamvane Retrospectives for Jira
+permalink: /retrospectives/terms/
+---
+
+# Terms of Use – Teamvane Retrospectives for Jira
+
+**Last updated:** 20 October 2026
+
+**Teamvane Retrospectives for Jira** ("the Product") is provided by Teamvane, the trading name of Alexandre Blasco Brasó, based in France ("Provider", "we"). Use of the Product is governed by:
+
+1. the [Atlassian Marketplace Standard End User Agreement (Bonterms v1.0)](https://www.atlassian.com/licensing/marketplace/end-user-agreement-v1) (the "Standard Agreement"), and
+2. these **Provider-Specific Terms**, which add to and modify the Standard Agreement as allowed by it.
+
+Capitalised terms not defined here have the meaning given in the Standard Agreement. If these Provider-Specific Terms conflict with the Standard Agreement, these Provider-Specific Terms prevail.
+
+## 1. Additional Terms
+
+### 1.1 Governing Law and Courts
+
+The "Governing Law" is the law of **France**, and the "Courts" are the competent courts of **Toulouse, France**.
+
+### 1.2 Notices
+
+Notices to the Provider must be sent by email to **support@teamvane.com**. Notices to the Customer may be sent to the technical or billing contact the Customer gave Atlassian for the Product.
+
+### 1.3 Language
+
+These terms are written in English. If they are translated, the English version prevails.
+
+### 1.4 Atlassian platform
+
+The Product is a Forge app that runs entirely on Atlassian's infrastructure. It has no servers or databases of its own. Its availability therefore depends on Atlassian's cloud products and on the Forge platform. Interruptions caused by Atlassian are not a breach of the Standard Agreement by the Provider.
+
+### 1.5 Privacy
+
+How the Product handles personal data is described in the [Privacy Policy](/retrospectives/privacy/).
+
+### 1.6 Content written by users
+
+Cards, actions and other text in the Product are written by the Customer's users and remain Customer Data. The Customer is responsible for what its users write, and for choosing whether a retrospective is anonymous or named before it starts.
+
+## 2. Attachments
+
+### 2.1 Support Policy
+
+- **How:** email **support@teamvane.com**, in English, French or Spanish.
+- **When:** business days (Monday to Friday, except French public holidays).
+- **Response target:** a first reply within **one business day**.
+- **What:** questions about using the Product, bug reports and help with setup. Fixes are delivered through Atlassian's automatic app updates.
+
+### 2.2 Security Measures
+
+- The Product runs and stores its data only on Atlassian's Forge platform. Atlassian encrypts the stored data on disk and keeps it in the same location as the Customer's Jira site.
+- Every action is checked on the server against the acting user's own Jira permissions: only users who can browse a space can see or change its retrospectives.
+- Before the reveal, the server never sends a card to anyone but its writer. One person's votes are never sent to anyone else; only totals are shown, once counted.
+- In anonymous retrospectives, the author of a card is never stored. The pseudonymous codes that let users edit their own cards are deleted when the retrospective ends.
+- Retrospectives are deleted automatically 12 months after they end.
+- Data about Atlassian accounts that have been closed is erased within a day of Atlassian reporting the closure.
+- The Product uses only the Atlassian permission scopes it needs, which are shown to admins at installation.
+
+### 2.3 Data Protection Addendum
+
+The [Data Processing Addendum](/retrospectives/dpa/) applies to personal data the Product processes on the Customer's behalf.
+
+### 2.4 Service Level Agreement
+
+No separate Service Level Agreement applies, because the Product's availability depends on Atlassian (see 1.4).
+
+## Contact
+
+Teamvane, Alexandre Blasco Brasó – **support@teamvane.com**
