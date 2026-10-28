@@ -79,6 +79,24 @@ h1, h2, h3 { line-height: 1.2; letter-spacing: -0.01em; }
 }
 .site-nav a:hover, .site-nav a[aria-current="page"] { color: var(--text); background: var(--surface); }
 
+/* The menu button only shows on phones (see Small screens). */
+.nav-toggle {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: transparent;
+  color: var(--text);
+  cursor: pointer;
+}
+.nav-toggle .nav-icon-close { display: none; }
+.nav-toggle[aria-expanded="true"] .nav-icon-open { display: none; }
+.nav-toggle[aria-expanded="true"] .nav-icon-close { display: inline; }
+
 /* Buttons */
 
 .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
@@ -225,11 +243,32 @@ h1, h2, h3 { line-height: 1.2; letter-spacing: -0.01em; }
   /* Side margins only: sections keep their own space above and below. */
   .container { padding-left: 16px; padding-right: 16px; }
   .site-nav a { padding: 6px 8px; font-size: 14px; }
-  /* Four menu links don't fit on one line: let the bar grow to two rows. */
-  .header-inner { height: auto; min-height: 64px; padding-top: 10px; padding-bottom: 10px; }
-  .site-nav { justify-content: flex-end; row-gap: 4px; }
+  /* Without JavaScript the links wrap onto a second row instead. */
+  html:not(.js) .header-inner { height: auto; min-height: 64px; padding-top: 10px; padding-bottom: 10px; }
+  html:not(.js) .site-nav { justify-content: flex-end; row-gap: 4px; }
   .brand span { display: none; }
   .app-card { flex-direction: column; padding: 20px; }
+}
+
+/* Phones and narrow windows: the menu folds into a button that opens a panel
+   under the bar. */
+@media (max-width: 640px) {
+  .js .nav-toggle { display: inline-flex; }
+  .js .site-nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    gap: 2px;
+    padding: 8px 16px 16px;
+    background: var(--bg);
+    border-bottom: 1px solid var(--border);
+    box-shadow: var(--shadow);
+  }
+  .js .site-nav.open { display: flex; }
+  .js .site-nav a { padding: 12px; font-size: 16px; }
 }
 
 /* Contact page */

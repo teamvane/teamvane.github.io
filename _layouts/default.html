@@ -18,7 +18,11 @@
       <a class="brand" href="/" aria-label="Teamvane home">
         <img src="/assets/img/teamvane-logo.svg" alt="" width="32" height="32"><span>Teamvane</span>
       </a>
-      <nav class="site-nav" aria-label="Main">
+      <!-- Phones: the links fold into a menu button (needs JavaScript; without it they show as usual). -->
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Menu">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path class="nav-icon-open" d="M4 7h16M4 12h16M4 17h16"/><path class="nav-icon-close" d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
         <a href="/planning-poker/"{% if page.url == '/planning-poker/' %} aria-current="page"{% endif %}>Planning Poker</a>
         <a href="/retrospectives/"{% if page.url == '/retrospectives/' %} aria-current="page"{% endif %}>Retrospectives</a>
         <a href="/security/"{% if page.url == '/security/' %} aria-current="page"{% endif %}>Security</a>
@@ -26,6 +30,24 @@
       </nav>
     </div>
   </header>
+  <script>
+    // Menu button on phones: opens and closes the links, and closes them
+    // again with Escape or after a link is followed.
+    document.documentElement.classList.add('js');
+    (function () {
+      var toggle = document.querySelector('.nav-toggle');
+      var nav = document.getElementById('site-nav');
+      function setOpen(open) {
+        toggle.setAttribute('aria-expanded', String(open));
+        nav.classList.toggle('open', open);
+      }
+      toggle.addEventListener('click', function () { setOpen(toggle.getAttribute('aria-expanded') !== 'true'); });
+      nav.addEventListener('click', function (event) { if (event.target.closest('a')) setOpen(false); });
+      document.addEventListener('keydown', function (event) {
+        if (event.key === 'Escape' && nav.classList.contains('open')) { setOpen(false); toggle.focus(); }
+      });
+    })();
+  </script>
 
   <main id="main">
 {{ content }}
