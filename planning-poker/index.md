@@ -16,16 +16,16 @@ facts:
 highlights:
   - title: Votes stay private until the reveal
     text: Nobody sees a card before the reveal. It's enforced on the server, not just hidden on screen. You see who's here, who has voted and who the team is waiting for, and when everyone has voted, the cards turn after a short countdown that anyone can hold.
-    image: /assets/img/highlight-1.png
-    alt: The Planning Poker panel on a Jira issue during a round, showing who's here, who has voted and who the team is waiting for.
+    image: /assets/img/planning-poker-1.png
+    alt: The Planning Poker panel during a round, with the card deck and who's here.
   - title: Refine a backlog together
     text: Build an estimation queue from your backlog, sprints or a search, then estimate the issues one after another on the space's Planning Poker page, with everyone following along live.
-    image: /assets/img/highlight-2.png
+    image: /assets/img/planning-poker-2.png
     alt: The space's Planning Poker page with an estimation queue of five issues and a session in progress.
   - title: Save the agreed estimate in one click
     text: After the reveal, save the agreed number to story points or any number field your space uses. Jira's issue view updates straight away, for everyone on the issue.
-    image: /assets/img/highlight-3.png
-    alt: Revealed results with the most voted card, saved to the issue's Story point estimate field.
+    image: /assets/img/planning-poker-3.png
+    alt: Revealed results with the most voted card, ready to save to the issue in one click.
 toc:
   - id: get-started
     title: Get started
