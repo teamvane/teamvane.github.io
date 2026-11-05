@@ -13,6 +13,19 @@ facts:
   - Free for up to 10 users
   - Runs on Atlassian
   - Your data stays in your site
+highlights:
+  - title: Honest feedback, anonymous by default
+    text: Cards stay hidden until the reveal, and in anonymous retros the author is never stored. Votes stay hidden until they're counted, so nobody follows the crowd or holds back.
+    image: /assets/img/retrospectives-1.png
+    alt: The Write step of an anonymous retrospective, where you only see your own cards, with how many the team has written so far and who's here.
+  - title: A guided flow anyone can run
+    text: Write, reveal, group, vote, discuss and agree actions, one step at a time, with everyone following live. It includes a timer, 11 colorful templates, and Take over if the facilitator drops off.
+    image: /assets/img/retrospectives-2.png
+    alt: The Vote step with the timer running, and the linked sprint's work items beside it.
+  - title: Actions that don't get forgotten
+    text: Turn actions into Jira work items in one click, or link existing ones. Unfinished actions come back at the start of the next retro, with their live status, until they're done.
+    image: /assets/img/retrospectives-3.png
+    alt: The Actions step, with agreed actions (one linked to a work item and its live status) above the topics ranked by votes.
 toc:
   - id: get-started
     title: Get started
