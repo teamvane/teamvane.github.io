@@ -13,6 +13,11 @@ facts:
   - Free for up to 10 users
   - Runs on Atlassian
   - Your data stays in your site
+related:
+  name: Teamvane Retrospectives for Jira
+  url: /retrospectives/
+  logo: /assets/img/retro-logo.svg
+  text: Guided, anonymous retrospectives inside Jira. Cards stay hidden until the reveal, votes stay hidden until they're counted, and what the team agrees becomes Jira work items that come back at the next retro.
 highlights:
   - title: Votes stay private until the reveal
     text: Nobody sees a card before the reveal. It's enforced on the server, not just hidden on screen. You see who's here, who has voted and who the team is waiting for, and when everyone has voted, the cards turn after a short countdown that anyone can hold.

@@ -13,6 +13,11 @@ facts:
   - Free for up to 10 users
   - Runs on Atlassian
   - Your data stays in your site
+related:
+  name: Teamvane Planning Poker for Jira
+  url: /planning-poker/
+  logo: /assets/img/app-logo.svg
+  text: Private, real-time planning poker inside Jira. Votes stay hidden until the reveal, refinement sessions run through a queue of issues, and the agreed estimate saves to the issue in one click.
 highlights:
   - title: Honest feedback, anonymous by default
     text: Cards stay hidden until the reveal, and in anonymous retros the author is never stored. Votes stay hidden until they're counted, so nobody follows the crowd or holds back.

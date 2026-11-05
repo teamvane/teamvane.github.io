@@ -49,3 +49,17 @@ layout: default
 {{ content }}
   </article>
 </div>
+
+{% if page.related %}
+<section class="container section" aria-label="Also from Teamvane">
+  <h2 class="section-title">Also from Teamvane</h2>
+  <a class="app-card" href="{{ page.related.url }}">
+    <img src="{{ page.related.logo }}" alt="" width="72" height="72">
+    <div>
+      <h3>{{ page.related.name }}</h3>
+      <p>{{ page.related.text }}</p>
+      <span class="link-more">Learn more →</span>
+    </div>
+  </a>
+</section>
+{% endif %}
