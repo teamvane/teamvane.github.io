@@ -7,7 +7,8 @@ eyebrow: For Jira Cloud · by Teamvane
 app_name: Teamvane Planning Poker for Jira
 tagline: Estimate together without anchoring. Votes stay hidden until the reveal, refinement sessions run through a queue of issues, and the agreed estimate saves to the issue in one click.
 logo: /assets/img/app-logo.svg
-marketplace_label: Coming soon to the Atlassian Marketplace
+marketplace_label: Get it on the Atlassian Marketplace
+marketplace_url: https://marketplace.atlassian.com/apps/2939883696/teamvane-planning-poker-for-jira
 facts:
   - Free for up to 10 users
   - Runs on Atlassian
