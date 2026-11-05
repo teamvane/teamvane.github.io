@@ -7,7 +7,8 @@ eyebrow: For Jira Cloud · by Teamvane
 app_name: Teamvane Retrospectives for Jira
 tagline: Honest retros without leaving Jira. Cards stay anonymous and hidden until the reveal, the team votes on what matters, and agreed actions become work items that come back until they're done.
 logo: /assets/img/retro-logo.svg
-marketplace_label: Coming soon to the Atlassian Marketplace
+marketplace_label: Get it on the Atlassian Marketplace
+marketplace_url: https://marketplace.atlassian.com/apps/2701773542/teamvane-retrospectives-for-jira
 facts:
   - Free for up to 10 users
   - Runs on Atlassian
